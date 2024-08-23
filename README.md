@@ -10,6 +10,11 @@ Welcome to the landing page for projects supporting our neural control research.
 - [ControlGym](https://github.com/SensorsINI/ControlGym)
 - [F1Tenth-INI](https://github.com/F1Tenth-INI)
 
+## Publications
+* [Hardware Neural Control of CartPole and F1TENTH Race Car](https://arxiv.org/abs/2407.08681)
+* [RPGD: A Small-Batch Parallel Gradient Descent Optimizer with Explorative Resampling
+for Nonlinear Model Predictive Control](https://www.zora.uzh.ch/id/eprint/254218/1/RPGD_ICRA_2023.pdf)
+
 ## Dependencies:
 
 All dependencies between the repositories are automatically managed in the form of Git submodules. For example, if you clone the `physical-cartpole` repository, it will include the `CartPoleSimulation`, and `CartPoleSimulation` will include `SI_Toolkit` and `Control_Toolkit`. Unlike other repositories, `SI_Toolkit` is a Python library and needs to be installed. This happens automatically when running `pip install -r requirements.txt`.
